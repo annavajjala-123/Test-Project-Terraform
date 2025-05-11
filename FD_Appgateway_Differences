@@ -1,1 +1,18 @@
+Azure Front door Key points: 
+ 1. It works at Layer 7 (HTTP/HTTPS) and is a global entry point.
+ 2. Best for global, multi-region applications.
+ 3. It supports global load balancing, SSL offloading and Path-based routing
+ 4. It works at outside virtual networks (public-facing apps)
+ 5. WAF rules are configured globally.
+ 6. latency will lower due to edge locations.
+ 7. It doesnot support private VNet.
+Application Gateway Key Points:
+ 1. It also works at Layer 7, but is regional. 
+ 2. Best for internal or regional web applications, especially when integrated with virtual networks.
+ 3. It support Regional load balancing, Path-based and host-based routing.
+ 4. Cannot directly integrate with private endpoints or VNets.
+ 5. It works with internal IPs and supports private backends.
+ 6. WAF rules are configured regionally.
+ 7. latency is slightly higher and more suitable for apps within a specific Azure region.
+
 
