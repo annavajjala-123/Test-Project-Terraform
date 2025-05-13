@@ -19,16 +19,23 @@ variable "sqlpassword" {
 default = "P@ssword1234!"
 }
 
+variable "sql_sku_name" {
+default = "testsqlskuuu"
+}
+
+variable "name"{
+default = "test"
+}
 variable "client_id" {
-default = "xxxxxxxxxxx"
+default = "xxxxxx"
 }
 variable "client_secret" {
-default = "xxxxxxx"
+default = "xxxxxxxxxxxx"
 }
 variable "subscription_id" {
-default = "xxxxxxxx"
+default = "xxxxxxx"
 }
 variable "tenant_id" {
-default = "xxxx"
+default = "xxxxxxxxx"
 }
 
